@@ -12,5 +12,5 @@ function foo(arr) {
         return x
     })
 
-    return `Your generated password is ${concatStr.reverse().join('')}`
+    console.log(`Your generated password is ${concatStr.reverse().join('')}`)
 }
